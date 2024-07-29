@@ -22,4 +22,3 @@ public class charcount{
         System.out.println(ch+" repeats "+count+" times");
     }
 }
-
