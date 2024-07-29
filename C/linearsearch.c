@@ -11,7 +11,7 @@ int linearsearch(int arr[] , int n , int key){
 }
 
 int main(){
-    int n,i,j,ch;
+    int n,i,key;
     printf("Enter the no.of elements in the list");
     scanf("%d",&n);
     int a[n];
@@ -20,9 +20,9 @@ int main(){
         scanf("%d",&a[i]);
     }
     printf("Enter the element to be searched in the lsit");
-    scanf("%d",&ch);
-    int result = linearsearch(a,n,ch);
-    if(result != -1){
+    scanf("%d",&key);
+    int result = linearsearch(a,n,key);
+    if(result != 0){
         printf("The element %d is present in the list at position %d",ch,result+1);
     }
     else{
