@@ -23,9 +23,9 @@ int main(){
     scanf("%d",&key);
     int result = linearsearch(a,n,key);
     if(result != 0){
-        printf("The element %d is present in the list at position %d",ch,result+1);
+        printf("The element %d is present in the list at position %d",key,result+1);
     }
     else{
-        printf("The element %d is not present in the lsit",ch);
+        printf("The element %d is not present in the lsit",key);
     }
 }
