@@ -1,3 +1,5 @@
+package com.vaishakh.Basic;
+
 import java.util.Scanner;
 
 public class matrix_multiplication{
