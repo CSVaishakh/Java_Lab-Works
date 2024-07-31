@@ -57,5 +57,6 @@
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "editor.suggest.showStatusBar": true
+  "editor.suggest.showStatusBar": true,
+  "C_Cpp.errorSquiggles": "disabled"
 }
