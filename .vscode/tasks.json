@@ -9,7 +9,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "C:\\Users\\91751\\Git\\Development\\Lab-Works\\C\\out\\${fileBasenameNoExtension}.exe"   
             ],
             "options": {
                 "cwd": "C:/msys64/ucrt64/bin"
