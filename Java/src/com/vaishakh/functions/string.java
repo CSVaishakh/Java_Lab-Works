@@ -1,4 +1,4 @@
-package com.vaishakh.Algorithms;
+package com.vaishakh.functions;
 
 import java.util.Scanner;
 

@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int n,i,j,temp;
-    printf("Enter the no.of elements in the lsit to be sorted");
+    printf("Enter the no.of elements in the list to be sorted");
     scanf("%d",&n);
     int a[100];
     printf("Enter the elements of the list\n");
