@@ -32,7 +32,7 @@ int collatz(int n){
     return l;
 }
 int main(){
-    int n,i;
+    int n;
     printf("Enter a number\n");
     scanf("%d",&n);
     printf("\n");
