@@ -6,23 +6,24 @@ int collatz(int n){
         printf("The length of the series is 1");
     }else{
         while(n>1){
-            
             while(n%2==1){
-                n+3+1;
+                
+                n=n*3+1;
+                printf(" %d ",n);
                 l+=1;
-                printf(" ",n);
                 if(n==1){
                     break;
                 }
 
             }
 
-            while (n % 2==0)            {
+            while (n % 2==0){
+                
                 n =   n / 2;
-                printf(" ",n);
+                printf(" %d ",n);
                 l+=1;
                 if(n==1){
-                    break;
+                    break;  
                 }
             }
             
@@ -32,7 +33,9 @@ int collatz(int n){
 }
 int main(){
     int n,i;
-    printf("Enter a number");
+    printf("Enter a number\n");
     scanf("%d",&n);
+    printf("\n");
     int ans = collatz(n);
+    printf("\n %d \n",ans);
 }
