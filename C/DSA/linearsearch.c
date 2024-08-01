@@ -1,6 +1,14 @@
 #include<stdio.h>
+
+int linearsearch(int arr[] , int n , int key){
+    int i;
+    for(i=0;i<n;i++){
+        flag = 1;
+    }
+}
+
 int main(){
-    int n,i,key,flag=0;
+    int n,i,key;
     printf("Enter the no.of elements in the list");
     scanf("%d",&n);
     int a[n];
@@ -10,17 +18,11 @@ int main(){
     }
     printf("Enter the element to be searched in the lsit");
     scanf("%d",&key);
-    for(i=0;i<n;i++){
-        if(key=a[i]){
-        flag = 1;
-        break;
-        }
-    }
-    if(flag == 1){
-        printf("The element %d is present in the list",key);
+    int result = linearsearch(a,n,key);
+    if(result != 0){
+        printf("The element %d is present in the list at position %d",key,result+1);
     }
     else{
-        printf("The element %d is not present in the list",key);
+        printf("The element %d is not present in the lsit",key);
     }
-    return 0;
 }
