@@ -1,7 +1,7 @@
 package com.vaishakh.Algorithms;
 import java.util.Scanner;
 public class binarysearch {
-    public static int binarysearch(int[] arr,int n,int x) {
+    public static int binary_search(int[] arr,int n,int x) {
         int start=0;
         int stop = x-1;
         while(start<=stop) {
@@ -19,6 +19,7 @@ public class binarysearch {
         return -1;
 
     }
+    @SuppressWarnings("resource")
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of n");
@@ -30,7 +31,7 @@ public class binarysearch {
         }
         System.out.println("Enter the element to be searched");
         int key=sc.nextInt();
-        int result = binarysearch(arr,key,n);
+        int result = binary_search(arr,key,n);
         if (result>-1){
             System.out.println("The element is present in the list at the index "+result);
         }
