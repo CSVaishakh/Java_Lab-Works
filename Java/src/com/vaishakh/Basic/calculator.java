@@ -5,23 +5,28 @@ import java.util.Scanner;
 public class calculator{
     public static Scanner in = new Scanner(System.in);
     public static int add(int a , int b){
-        int sum =a+b;
+        int sum;
+        sum = a+b;
         return sum;
     }
     public static int subtract(int a , int b){
-        int difference =a-b;
+        int difference;
+        difference = a-b;
         return difference;
     }
     public static int multiply(int a , int b){
-        int product = a*b;
+        int product;
+        product = a*b;
         return product;
     }
     public static int division(int a , int b){
-        int quotient =a/b;
+        int quotient;
+        quotient = a/b;
         return quotient;
     }
     public static int reminder(int a , int b){
-        int rem = a%b;
+        int rem;
+        rem = a%b;
         return rem;
     }
 
