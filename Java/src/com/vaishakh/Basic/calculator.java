@@ -5,28 +5,23 @@ import java.util.Scanner;
 public class calculator{
     public static Scanner in = new Scanner(System.in);
     public static int add(int a , int b){
-        int sum = 0;
-        sum =a+b;
+        int sum =a+b;
         return sum;
     }
     public static int subtract(int a , int b){
-        int result = 0;
-        result =a-b;
-        return result;
+        int difference =a-b;
+        return difference;
     }
-    public static int multipli(int a , int b){
-        int product = 0;
-        product = a*b;
+    public static int multiply(int a , int b){
+        int product = a*b;
         return product;
     }
     public static int division(int a , int b){
-        int quotient = 0;
-        quotient =a/b;
+        int quotient =a/b;
         return quotient;
     }
     public static int reminder(int a , int b){
-        int rem = 0;
-        rem = a%b;
+        int rem = a%b;
         return rem;
     }
 
@@ -35,7 +30,7 @@ public class calculator{
         System.out.println("  CALCULATOR  ");
         System.out.println("Choose the operation to be performed");
         System.out.println("1. Addition");
-        System.out.println("2. Subtractionion");
+        System.out.println("2. Subtraction");
         System.out.println("3. Multiplication");
         System.out.println("4. Division");
         System.out.println("5. Find the remainder");
@@ -49,7 +44,7 @@ public class calculator{
         switch(choice){
             case 1 -> System.out.println("The sum is "+add(num1, num2));
             case 2 -> System.out.println("The difference is "+subtract(num1, num2));
-            case 3 -> System.out.println("The product is "+multipli(num1, num2));
+            case 3 -> System.out.println("The product is "+multiply(num1, num2));
             case 4 -> System.out.println("The quotient is "+division(num1, num2));
             case 5 -> System.out.println("The reminder is "+reminder(num1, num2));
         }
