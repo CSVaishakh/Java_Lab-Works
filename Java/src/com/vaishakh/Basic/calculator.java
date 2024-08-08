@@ -47,11 +47,11 @@ public class calculator{
         System.out.println("Enter the second number");
         num2=in.nextInt();
         switch(choice){
-            case 1 -> System.out.println(add(num1, num2));
-            case 2 -> System.out.println(subtract(num1, num2));
-            case 3 -> System.out.println(multipli(num1, num2));
-            case 4 -> System.out.println(division(num1, num2));
-            case 5 -> System.out.println(reminder(num1, num2));
+            case 1 -> System.out.println("The sum is "+add(num1, num2));
+            case 2 -> System.out.println("The difference is "+subtract(num1, num2));
+            case 3 -> System.out.println("The product is "+multipli(num1, num2));
+            case 4 -> System.out.println("The quotient is "+division(num1, num2));
+            case 5 -> System.out.println("The reminder is "+reminder(num1, num2));
         }
     }
 }
